@@ -3,17 +3,6 @@ bbody {
   font-family: Arial, sans-serif;
 }
 
-/* Encabezado */
-header {
-  background-color: #e84626;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-
 .logo {
   font-weight: bold;
 }
@@ -30,11 +19,10 @@ header {
   cursor: pointer;
 }
 
-
 nav {
   display: none;
   flex-direction: column;
-  background: #e1e68b;
+  background: #91a8ca;
   position: absolute;
   top: 60px;
   left: 0;
@@ -51,7 +39,7 @@ nav a {
   display: block;
 }
 
-/* Mostrar nav cuando el checkbox está marcado */
+
 #menu-toggle:checked ~ nav {
   display: flex;
 }
