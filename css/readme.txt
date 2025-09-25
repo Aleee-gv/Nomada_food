@@ -1,18 +1,3 @@
-bbody {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Encabezado */
-header {
-  background-color: #e84626;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
 
 .logo {
   font-weight: bold;
